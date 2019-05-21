@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Electron App with Ionic</title>
+
+    <link href="https://unpkg.com/@ionic/core@4.4.0/css/ionic.bundle.css" rel="stylesheet">
+    <script src="https://unpkg.com/@ionic/core@4.4.0/dist/ionic.js"></script>
+
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <ion-app>
+        <ion-header>
+            <ion-toolbar color="medium">
+                <ion-title>
+                    Electron App with Ionic
+                </ion-title>
+                <ion-buttons slot="end">
+                    <ion-button onclick="button_clicked()">
+                        <ion-icon name="play"></ion-icon>Run</ion-icon>
+                    </ion-button>
+                </ion-buttons>
+            </ion-toolbar>
+        </ion-header>
+
+        <ion-content>
+            <ion-row class="main-view">
+                <ion-col size="9">
+                    <ion-row class="vis-view">
+                        <ion-col size="6">
+                            <ion-card>
+                                vis1
+                            </ion-card>
+                        </ion-col>
+                        <ion-col size="6">
+                            <ion-card>
+                                vis2
+                            </ion-card>
+                        </ion-col>
+                        <ion-col size="6">
+                            <ion-card>
+                                vis3
+                            </ion-card>
+                        </ion-col>
+                        <ion-col size="6">
+                            <ion-card>
+                                vis4
+                            </ion-card>
+                        </ion-col>
+                    </ion-row>
+                    <ion-row class="other-view">
+                        <ion-col>
+                            <ion-card>
+                                other
+                            </ion-card>
+                        </ion-col>
+                    </ion-row>
+                </ion-col>
+                <ion-col size="3">
+                    <ion-card>
+                        control
+                    </ion-card>
+                </ion-col>
+            </ion-row>
+        </ion-content>
+    </ion-app>
+</body>
+
+</html>

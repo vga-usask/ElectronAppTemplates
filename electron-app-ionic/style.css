@@ -1,0 +1,17 @@
+.main-view {
+    height: 100%;
+}
+
+.vis-view {
+    height: 75%;
+}
+
+.other-view {
+    min-height: 25%;
+}
+
+ion-card {
+    height: 100%;
+    background-color: white;
+    margin: 0 !important;
+}
