@@ -18,11 +18,11 @@ Steps to Run
   ```
   npm i
   ```
-* in this directory, run
+* In this directory, run
   ```
   npx electron .
   ```
-  if _npx_ does not exist, it might be installed with (for Linux, _sudo_ could be required)
+  If _npx_ does not exist, it might be installed with (for Linux, _sudo_ could be required)
   ```
   npm i -g npx
   ```
